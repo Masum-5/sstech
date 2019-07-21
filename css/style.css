@@ -1,0 +1,732 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*global style*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+}
+/*
+.row{
+    width: 80%;
+    margin: 0 auto;
+}
+*/
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-size: 16;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3f3f3f;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3f3f3f; 
+}
+p{
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #3E3E3E;
+}
+span{
+    color: #756aff;
+}
+
+/*topber style start*/
+#topber{
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+#topber:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#topber .heading{
+    height: 100px;
+}
+#topber .logo{
+    width: 15%;
+    float: left;
+}
+#topber .logo img{
+    width: 100%;    
+}
+#topber .menu{
+    width: 75%;
+    float: left;
+}
+#topber .menu ul{
+    float: right;
+}
+#topber .menu ul li a{
+    color: #d6d6d6;
+    font-size: 16px;
+    display: block;
+    padding: 10px 15px;
+    transition: .5s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+#topber .menu ul li a:hover{
+    color: #fff;
+}
+
+#topber .heading button{
+    width: 10%;
+    padding: 10px;
+}
+/*topber text+cover start*/
+
+#topber .middle {
+}
+#topber .middle .text{
+    margin-top: 20px;
+    width: 50%;
+    float: left;
+    padding: 80px 0;
+    box-sizing: border-box;
+}
+#topber .middle h1{
+    color: #fff;
+    line-height: 50px;
+    font-size: 40px;
+}
+#topber .middle p{
+    width: 100%;
+    padding: 20px 0;
+    color: #f7f7f7;
+    
+}
+#topber .middle .buttons{
+    padding: 50px 0;
+}
+#topber .middle .buttons button{
+    padding:10px 20px;
+    margin-right: 10px;
+    transition: .5s;
+    display: inline-block;
+}
+#topber .middle .buttons button:hover{
+    background: #fff;
+    color: blue;
+}
+#topber .middle .cover{
+    width:40%;
+    float: left;
+    padding: 0;
+   
+}
+#topber .middle .cover img{
+    width: 100%;
+    background: transparent;
+}
+/*topber style end*/
+
+/*service section start*/
+
+#services{
+    padding: 60px 0;
+    clear: both;
+}
+#services:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#services .text{
+    text-align: center;
+}
+#services .text h1{
+    font-size: 30px; 
+}
+#services .text span{
+    color: #756aff;
+}
+#services .text p{
+    padding: 25px;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 400;
+    
+}
+#services .icon{
+    width: 100%;
+}
+#services .icon-1{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+#services .icon-1 .img{
+   display: block;
+    padding: 20px;
+}
+#service .icon-1 img{
+
+}
+#services .icon-1 h1{ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+#services .icon-1 p{
+   padding: 10px;
+}
+#services .icon-1 a{
+    display: block;
+    font-size: 14px;
+    color: #756aff;
+}
+
+
+/*service section end*/
+
+
+/*lead section start*/
+#lead {
+    background: url(../img/lead-banner.png);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    
+}
+#lead:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#lead .lead-content{
+    width: 40%;
+    float: right;
+}
+#lead .lead-content h1{
+    
+    padding: 10px;
+}
+#lead .lead-content p{
+  
+    padding: 20px;
+}
+#lead .lead-content button{
+    
+    margin-left: 20px;
+    padding: 10px 20px;;
+    background: rgba(25,165,252,1);
+    background: -moz-linear-gradient(left, rgba(25,165,252,1) 0%, rgba(60,119,253,1) 52%, rgba(87,84,253,1) 91%, rgba(93,76,253,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(25,165,252,1)), color-stop(52%, rgba(60,119,253,1)), color-stop(91%, rgba(87,84,253,1)), color-stop(100%, rgba(93,76,253,1)));
+    background: -webkit-linear-gradient(left, rgba(25,165,252,1) 0%, rgba(60,119,253,1) 52%, rgba(87,84,253,1) 91%, rgba(93,76,253,1) 100%);
+    background: -o-linear-gradient(left, rgba(25,165,252,1) 0%, rgba(60,119,253,1) 52%, rgba(87,84,253,1) 91%, rgba(93,76,253,1) 100%);
+    background: -ms-linear-gradient(left, rgba(25,165,252,1) 0%, rgba(60,119,253,1) 52%, rgba(87,84,253,1) 91%, rgba(93,76,253,1) 100%);
+    backglead-content: linear-gradient(to right, rgba(25,165,252,1) 0%, rgba(60,119,253,1) 52%, rgba(87,84,253,1) 91%, rgba(93,76,253,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19a5fc', endColorstr='#5d4cfd', GradientType=1 );
+}
+#lead{}
+#lead{}
+/*lead section end*/
+/*projects section start*/
+
+#project-section{
+    background: url(../img/project-bg.png);
+    padding: 80px 0;
+    text-align: center;
+}
+#project-section h1{
+    font-size: 25px;
+    padding: 30px 0;
+}
+#project-section h1 span{}
+#project-section .project{
+    width: 100%;
+    padding: 50px 0;
+}
+#project-section .project-1{
+    width: 25%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: .6s;
+    border-radius: 6px;
+}
+#project-section .project-1:hover{
+    background: #F6FBFF;
+}
+#project-section .project-1 span{
+    font-size: 25px;
+}
+#project-section .project-1 h1{
+    font-size: 16px;
+    padding: 0;
+}
+
+/*projects section end*/
+/*portfolio content*/
+#portfolio{
+    padding: 60px 0;
+}
+#portfolio .portfolio-content{
+    text-align: center;
+}
+#portfolio .portfolio-content h1{
+    padding: 20px;
+}
+#portfolio .portfolio-content span{}
+#portfolio .portfolio-content p{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*portfolio menu*/
+#portfolio .portfolio-menu{
+    text-align: center;
+    padding: 50px;
+}
+#portfolio .portfolio-menu ul{ 
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 80%;
+    border: 2px solid #746AFF;
+    border-radius: 50px;
+}
+#portfolio .portfolio-menu ul li{
+}
+#portfolio .portfolio-menu ul li a{ 
+    color: #3f3f3f;
+    display: block;
+    padding: 8px 30px;
+    font-size: 18px;
+    transition: .5s;
+}
+#portfolio .portfolio-menu ul li a:hover{
+    background: #746AFF;
+    border-radius: 50px;
+}
+/*portfolio image section*/
+
+#portfolio .portfolio-img{
+   width: 100%;
+}
+#portfolio .image-box{
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+#portfolio .image-box .image{
+   padding: 8px
+}
+#portfolio .image img{
+   width: 100%;
+   border-radius: 10px;
+}
+#portfolio .hover{
+    height: 92.5%;
+    width: 96%;
+    background: rgba(25, 153, 232, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    transition: .6s; 
+    opacity: 0;
+}
+#portfolio .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#portfolio i{
+   
+    padding: 5px;
+    background: #5c9bdd;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid transparent;
+   
+}
+#portfolio .image-box:hover .hover{
+    opacity: 1;
+}
+#portfolio .image-box .icon h3{
+    position: absolute;
+    color: #f6fbff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+/*work section start */
+
+#work{
+    clear: both;
+    background: linear-gradient(rgba(18, 169, 240, 0.7), rgba(18, 169, 240, 0.7)), url(../img/work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 65px;
+}
+
+#work .work-content{ 
+    text-align: center;
+}
+#work .work-content h1{
+    padding: 30px 0 15px 0;
+    color: #fff;
+  
+}
+#work .work-content p{
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+}
+#work .input{ 
+    padding: 50px 0;
+    display: block;
+    text-align: center;
+   
+}
+#work from input{
+    padding: 15px 25px;
+    border: none;
+    background: #fff;
+    border-radius: 30px;
+}
+#work .input button{
+    font-size: 16px;
+    padding: 10px 45px;
+    background: rgba(91,76,253,1);
+    background: -moz-linear-gradient(left, rgba(91,76,253,1) 0%, rgba(27,161,252,1) 0%, rgba(91,76,253,1) 57%, rgba(89,81,254,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(91,76,253,1)), color-stop(0%, rgba(27,161,252,1)), color-stop(57%, rgba(91,76,253,1)), color-stop(100%, rgba(89,81,254,1)));
+    background: -webkit-linear-gradient(left, rgba(91,76,253,1) 0%, rgba(27,161,252,1) 0%, rgba(91,76,253,1) 57%, rgba(89,81,254,1) 100%);
+    background: -o-linear-gradient(left, rgba(91,76,253,1) 0%, rgba(27,161,252,1) 0%, rgba(91,76,253,1) 57%, rgba(89,81,254,1) 100%);
+    background: -ms-linear-gradient(left, rgba(91,76,253,1) 0%, rgba(27,161,252,1) 0%, rgba(91,76,253,1) 57%, rgba(89,81,254,1) 100%);
+    background: linear-gradient(to right, rgba(91,76,253,1) 0%, rgba(27,161,252,1) 0%, rgba(91,76,253,1) 57%, rgba(89,81,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b4cfd', endColorstr='#5951fe', GradientType=1 )
+}
+
+/*work section end */
+
+/*client section start*/
+#client{
+    padding: 50px 0;
+}
+#client .client-content{
+    text-align: center;
+}
+#client .client-content h1{
+    padding: 20px;
+}
+#client .client-content p{
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*client profile*/
+.client-profile{
+    margin-top: 50px;
+    width: 33.33%;
+    position: relative;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.client-profile .client-bg{
+    width: 100%;
+}
+.client-profile .client-img{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid black;
+    
+}
+.client-profile h3{
+    margin-top: 20px;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #7b99fe;
+}
+.client-profile .star{
+    padding: 5px 0 10px 0;
+}
+.client-profile .star i{
+    color: #7b99fe;
+}
+.client-profile .social-icon{
+    margin-bottom: 30px;
+}
+.client-profile .social-icon i{
+    font-size: 20px;
+    background: 
+}
+.client-profile p{
+    width: 80%;
+    margin: 0 auto;
+}
+/*client section end*/
+/*contact section start*/
+
+#contact{
+
+}
+#contact .contact-content{
+   text-align: center;
+}
+#contact .contact-content h1{
+    padding: 30px 0 15px 0;
+}
+#contact .contact-content p{
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/*contact icon*/
+
+#contact .contact-icon{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: #49494B;
+}
+#contact .contact-icon .phone{
+    height: 100px;
+    width: 32.33%;
+    float: left;
+    background: #eef9ff;
+    margin-right: 1%;
+}
+#contact .contact-icon .email{
+    height: 100px;
+    width: 31.33%;
+    float: left;
+    background: #eef9ff;
+    margin: 0 1%;
+}
+#contact .contact-icon .address{
+    height: 100px;
+    width: 32.33%;
+    float: left;
+    margin-left: 1%;
+    background: #eef9ff;
+}
+#contact .contact-icon i{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: blue;
+}
+/*contact from start*/
+
+#contact .contact-from{
+    margin-top: 20px;
+    width: 48%;
+    float: left;
+    box-sizing: border-box;
+     font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #3f3f3f;
+}
+#contact .contact-from from{}
+#contact from input{
+    width: 50%;
+    float: left;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background: #fafafa;
+    border: 1px solid #ebebeb;
+    margin: 10px 0 10px 0;
+}
+#contact from textarea{
+    display: block;
+    width: 100%;
+    background: #fafafa;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0;
+    border: none;
+    border: 1px solid #ebebeb;
+}
+#contact .button button{
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding: 8px 60px;
+    background: rgba(91,76,253,1);
+    background: -moz-linear-gradient(left, rgba(91,76,253,1) 0%, rgba(27,161,252,1) 0%, rgba(91,76,253,1) 57%, rgba(89,81,254,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(91,76,253,1)), color-stop(0%, rgba(27,161,252,1)), color-stop(57%, rgba(91,76,253,1)), color-stop(100%, rgba(89,81,254,1)));
+    background: -webkit-linear-gradient(left, rgba(91,76,253,1) 0%, rgba(27,161,252,1) 0%, rgba(91,76,253,1) 57%, rgba(89,81,254,1) 100%);
+    background: -o-linear-gradient(left, rgba(91,76,253,1) 0%, rgba(27,161,252,1) 0%, rgba(91,76,253,1) 57%, rgba(89,81,254,1) 100%);
+    background: -ms-linear-gradient(left, rgba(91,76,253,1) 0%, rgba(27,161,252,1) 0%, rgba(91,76,253,1) 57%, rgba(89,81,254,1) 100%);
+    background: linear-gradient(to right, rgba(91,76,253,1) 0%, rgba(27,161,252,1) 0%, rgba(91,76,253,1) 57%, rgba(89,81,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b4cfd', endColorstr='#5951fe', GradientType=1 )
+}
+#contact .contact-from{}
+#contact .contact-from{}
+
+#contact .image{
+    width: 50%;
+    float: right;
+    padding: 50px 100px 50px 100px;
+    box-sizing: border-box;
+    
+}
+#contact .image img{
+    width: 100%;
+}
+/*client section end*/
+
+#fotter{
+    margin-top: 30px;
+    height: 80px;
+    background: rgba(246,41,12,1);
+    background: -moz-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 0%, rgba(80,92,254,1) 0%, rgba(13,182,251,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(246,41,12,1)), color-stop(0%, rgba(240,47,23,1)), color-stop(0%, rgba(80,92,254,1)), color-stop(100%, rgba(13,182,251,1)));
+    background: -webkit-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 0%, rgba(80,92,254,1) 0%, rgba(13,182,251,1) 100%);
+    background: -o-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 0%, rgba(80,92,254,1) 0%, rgba(13,182,251,1) 100%);
+    background: -ms-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 0%, rgba(80,92,254,1) 0%, rgba(13,182,251,1) 100%);
+    background: linear-gradient(to right, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 0%, rgba(80,92,254,1) 0%, rgba(13,182,251,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6290c', endColorstr='#0db6fb', GradientType=1 );
+}
+#fotter .fotter-text{
+    width: 100%;
+    margin-top:25px;
+   
+    
+}
+#fotter .fotter-content{
+    width: 80%;
+    float: left;
+    
+}
+#fotter .fotter-content p{
+   text-transform: uppercase;
+     color: #fff;
+}
+#fotter span{
+    text-transform: capitalize;
+     color: #fff;
+}
+#fotter .social{
+    width: 20%;
+    float: left;
+}
+#fotter .social .menu{}
+#fotter .social .menu ul{
+    float: right;
+}
+#fotter .social .menu ul li{}
+#fotter .social .menu ul li a{}
+#fotter .social .menu i{
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+
+/*last*/
+.top{
+    position: fixed;
+    right: 30px;
+    bottom: -8px;
+    transform: translatey(-50%);
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(360deg, rgba(92,77,253,1) 0%, rgba(1,180,234,1) 100%);
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
